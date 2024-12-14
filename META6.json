@@ -1,5 +1,5 @@
 {
-  "auth": "raku-community-modules",
+  "auth": "zef:raku-community-modules",
   "authors": [
     "Emeric Fischer"
   ],
@@ -23,5 +23,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.1"
+  "version": "0.2"
 }
