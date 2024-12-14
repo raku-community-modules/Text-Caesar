@@ -1,15 +1,27 @@
 {
-    "perl" : "6.c",
-    "name" : "Text::Caesar",
-    "version" : "0.1",
-    "description" : "*",
-    "authors" : [ "Emeric Fischer" ],
-    "provides" : {
-        "Text::Caesar" : "lib/Text/Caesar.pm6"
-    },
-    "depends" : [ ],
-    "resources" : [ ],
-    "source-url" : "git://github.com/Emeric54/p6-text-caesar.git",
-    "tags" : [ "crypt", "password" ],
-    "author" : "Emeric Fischer <fischer.emeric@gmail.com>"
+  "auth": "raku-community-modules",
+  "authors": [
+    "Emeric Fischer"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Encrypt / Decrypt using a Caesar cipher",
+  "license": "NOASSERTION",
+  "name": "Text::Caesar",
+  "perl": "6.c",
+  "provides": {
+    "Text::Caesar": "lib/Text/Caesar.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/Text-Caesar.git",
+  "tags": [
+    "crypt",
+    "password"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1"
 }

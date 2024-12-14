@@ -1,5 +1,3 @@
-use v6;
-
 use Text::Caesar;
 
 my Str $secret = 'LPDVHFUHWPHVVDJH'
